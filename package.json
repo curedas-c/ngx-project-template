@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "commit": "git-cz && release",
+    "commit": "git-cz && npm run release",
     "release": "standard-version"
   },
   "private": true,

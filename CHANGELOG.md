@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/curedas-c/ngx-project-template/compare/v0.0.5...v0.0.6) (2022-04-06)
+
+### Features
+
+- adds theme and shared directories ([1b3d5cb](https://github.com/curedas-c/ngx-project-template/commit/1b3d5cbef3053f4fb23e8e85200ba117257ee7cc))
+
 ### [0.0.5](///compare/v0.0.4...v0.0.5) (2022-04-06)
 
 ### Features

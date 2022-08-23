@@ -115,5 +115,7 @@
       }
     }
   },
-  "defaultProject": "ngx-project-template"
+  "cli": {
+    "analytics": "a9ed9134-f316-4f59-aa13-e2a74dc3a670"
+  }
 }

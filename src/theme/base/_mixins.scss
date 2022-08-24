@@ -1,7 +1,7 @@
 @mixin ellipsis($values) {
   @each $value in $values {
     .ellipse-#{$value} {
-      width: #{$value}px;
+      width: #{$value}rem;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -12,8 +12,8 @@
 @mixin break-word($values) {
   @each $value in $values {
     .break-word-#{$value} {
-      width: #{$value}px;
-      max-width: #{$value}px;
+      width: #{$value}rem;
+      max-width: #{$value}rem;
       word-wrap: break-word;
     }
   }
@@ -22,7 +22,7 @@
 @mixin text-size($values) {
   @each $value in $values {
     .text-size-#{$value} {
-      font-size: #{$value}px;
+      font-size: #{$value}rem;
     }
   }
 }

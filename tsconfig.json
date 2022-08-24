@@ -22,8 +22,7 @@
     "paths": {
       "@shared/*": ["src/app/@shared/*"],
       "@store/*": ["src/app/@store/*"],
-      "@environments/*": ["src/environments/*"],
-      "tslib": ["node_modules/tslib/tslib.d.ts"]
+      "@environments/*": ["src/environments/*"]
     }
   },
   "angularCompilerOptions": {

@@ -10,7 +10,11 @@ import { filter, map, Subject, takeUntil, tap } from 'rxjs';
 })
 export class AppComponent implements OnDestroy {
   private _destroy$ = new Subject<void>();
-  constructor(private router: Router, private activatedRoute: ActivatedRoute, private globalFacade: GlobalFacade) {
+  constructor(
+    private router: Router,
+    private activatedRoute: ActivatedRoute,
+    private globalFacade: GlobalFacade
+  ) {
     this.listenToRouteParamsChanges();
   }
 
